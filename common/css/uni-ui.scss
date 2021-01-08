@@ -1,0 +1,18 @@
+.uni-flex {
+	display: flex;
+}
+
+.uni-flex-row {
+	@extend .uni-flex;
+	flex-direction: row;
+	box-sizing: border-box;
+}
+
+.uni-flex-column {
+	@extend .uni-flex;
+	flex-direction: column;
+}
+
+.uni-color-gary {
+	color: #3b4144;
+}

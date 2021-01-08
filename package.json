@@ -1,0 +1,21 @@
+{
+  "name": "lqsblog-frontend-uniapp",
+  "version": "1.0.0",
+  "description": "Li qingsong&#39;s blog uni-app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lqsblog",
+    "uniapp"
+  ],
+  "author": "lqs",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.2.10",
+    "highlight.js": "^10.5.0",
+    "marked": "^1.2.7",
+    "mp-html": "^2.0.1"
+  }
+}

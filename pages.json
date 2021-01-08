@@ -1,0 +1,146 @@
+{
+	"easycom": {
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/articles/list/index",
+		    "style" :                                                                                    
+		    {
+		        // "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+	    ,{
+		    "path" : "pages/articles/detail/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "随笔详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+	    ,{
+            "path" : "pages/works/list/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        } 
+	    ,{
+	        "path" : "pages/works/detail/index",
+	        "style" :                                                                                    
+	        {
+	            "navigationBarTitleText": "作品详情",
+	            "enablePullDownRefresh": false
+	        }
+	        
+	    }
+        ,{
+            "path" : "pages/search/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/topics/list/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/topics/detail/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "专题详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/about/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        /*
+		,{
+            "path" : "pages/links/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/code/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		*/
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "李庆松的博客",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/articles/list/index",
+				"iconPath": "static/images/tab-bar/articles.png",
+				"selectedIconPath": "static/images/tab-bar/articles_select.png",
+				"text": "随笔"
+			},
+			{
+				"pagePath": "pages/works/list/index",
+				"iconPath": "static/images/tab-bar/works.png",
+				"selectedIconPath": "static/images/tab-bar/works_select.png",
+				"text": "作品"
+			},
+			{
+				"pagePath": "pages/search/index",
+				"iconPath": "static/images/tab-bar/search.png",
+				"selectedIconPath": "static/images/tab-bar/search_select.png",
+				"text": "搜索"
+			},		
+			{
+				"pagePath": "pages/topics/list/index",
+				"iconPath": "static/images/tab-bar/topics.png",
+				"selectedIconPath": "static/images/tab-bar/topics_select.png",
+				"text": "专题"
+			},
+			{
+				"pagePath": "pages/about/index",
+				"iconPath": "static/images/tab-bar/about.png",
+				"selectedIconPath": "static/images/tab-bar/about_select.png",
+				"text": "关于"
+			}
+			
+		]
+	}
+}
